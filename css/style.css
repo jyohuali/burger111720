@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  }
+}
 
 .main-nav {
   display: flex;
@@ -41,6 +41,7 @@
   width: 50px;
   height: 50px;
   position: relative;
+  outline: none;
   }
 
 .hamburger div {
@@ -91,5 +92,9 @@
 .main-nav-list.open{
   max-height: 500px;
   }
+
+  body {
+	cursor: url('images-burg.png'), default;
+}
 
 } /*closes media query */
